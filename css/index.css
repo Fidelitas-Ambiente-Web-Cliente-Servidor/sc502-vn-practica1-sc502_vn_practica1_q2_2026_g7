@@ -36,3 +36,39 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+
+.testimonios{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonios h2{
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.testimonios-contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonio{
+    width: 400px;
+    background-color: #F5F5F5;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.testimonio p{
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonio h4{
+    margin-top: 15px;
+    color: #D4AF37;
+}
