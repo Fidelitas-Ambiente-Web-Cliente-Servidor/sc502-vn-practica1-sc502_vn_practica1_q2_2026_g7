@@ -1,0 +1,57 @@
+.formu {
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+
+.info {
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+
+.formu h3, .info h3 {
+    margin-top: 10px;
+    color: #1A1A1A;
+}
+
+.formu label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formu input, .formu textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.formu .boton-curso {
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.info p {
+    line-height: 1.5;
+}
+
+.info strong {
+    color: #363636;
+}
+
+.info iframe {
+    margin-top: 10px;
+}
