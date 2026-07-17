@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let errorAsunto = document.getElementById("errorAsunto");
     let errorMensaje = document.getElementById("errorMensaje");
     let mensajeExito = document.getElementById("mensajeExito");
+
+    
     let regexLetras = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s]+$/;
     let regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     let regexNumeros = /^[0-9]+$/;
@@ -76,7 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
     inputTelefono.addEventListener("input", validarFormulario);
     inputAsunto.addEventListener("input", validarFormulario);
     inputMensaje.addEventListener("input", validarFormulario);
-    miFormulario.addEventListener("submit", function (event) {
+
+    /*miFormulario.addEventListener("submit", function (event) {
         event.preventDefault();
         mensajeExito.innerText = "¡Formulario enviado con éxito!";
         mensajeExito.style.display = "block";
@@ -86,6 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
             mensajeExito.innerText = "";
             mensajeExito.style.display = "none";
         }, 2000);
-    });
+    });*/
 
 });

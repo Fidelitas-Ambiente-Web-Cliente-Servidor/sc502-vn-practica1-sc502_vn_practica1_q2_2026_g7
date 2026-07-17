@@ -13,4 +13,4 @@ VALUES
 ('Piano Inicial', 'Curso para principiantes', 'Instrumentos', 'piano.jpg', '10 semanas'),
 ('Canto Popular', 'Técnicas vocales', 'Vocal', 'canto.jpg', '6 semanas'),
 ('Violín', 'Nivel básico', 'Instrumentos', 'violin.jpg', '12 semanas'),
-('Batería', 'Ritmo y coordinación', 'Percusión', 'bateria.jpg', '9 semanas');
+('Batería', 'Ritmo y coordinación', 'Percusión', 'bateria.jpg', '9 semanas');('Batería', 'Ritmo y coordinación', 'Percusión', 'bateria.jpg', '9 semanas');

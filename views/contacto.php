@@ -63,7 +63,7 @@
 
             <div id="mensajeExito" class="mensaje-exito"></div>
 
-            <button type="submit" id="btnEnviar" class="boton-curso" disabled>
+            <button type="submit" id="btnEnviar" class="boton-curso">
                 Enviar Mensaje
             </button>
 
