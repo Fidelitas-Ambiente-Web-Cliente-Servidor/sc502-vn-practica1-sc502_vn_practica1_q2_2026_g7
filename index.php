@@ -14,6 +14,14 @@ switch ($controller) {
         $obj->$action();
 
         break;
+    case 'contacto':
+        require_once 'controllers/ContactoController.php';
+    
+        $obj = new ContactoController();
+    
+        $obj->$action(); 
+    
+        break;
 
     default:
 
