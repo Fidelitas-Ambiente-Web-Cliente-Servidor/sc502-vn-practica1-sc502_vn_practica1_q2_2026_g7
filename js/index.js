@@ -22,7 +22,7 @@ const cursos = [
 ];
 
 
-const contenedor = document.getElementById("contenedor-cursos");
+/*const contenedor = document.getElementById("contenedor-cursos");
 
 
 cursos.forEach(curso => {
@@ -56,4 +56,4 @@ cursos.forEach(curso => {
 
     contenedor.appendChild(tarjeta);
 
-});
+});*/
